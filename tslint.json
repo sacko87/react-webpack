@@ -1,0 +1,72 @@
+{
+	"rules": {
+		"prefer-const": true,
+		"arrow-parens": false,
+		"quotemark": [
+			true,
+			"double"
+		],
+		"semicolon": [
+			true
+		],
+		"no-shadowed-variable": true,
+		"indent": [
+			true,
+			"spaces",
+      		2
+		],
+		"no-trailing-whitespace": true,
+		"no-var-keyword": true,
+		"prefer-for-of": true,
+		"no-unused-variable": true,
+		"object-literal-shorthand": true,
+		"whitespace": [
+			true,
+			"check-branch",
+			"check-decl",
+			"check-operator",
+			"check-module",
+			"check-separator",
+			"check-type"
+		],
+		"array-type": [
+			true,
+			"array"
+		],
+		"trailing-comma": [
+			true,
+			{
+				"multiline": "always",
+				"singleline": "never"
+			}
+		],
+		"member-ordering": [
+			true,
+			{
+				"order": [
+					"public-static-field",
+					"protected-static-field",
+					"private-static-field",
+					
+					"public-static-method",
+					"protected-static-method",
+					"private-static-method",
+					
+					"public-instance-field",
+					"protected-instance-field",
+					"private-instance-field",
+					
+					"public-constructor",
+					"protected-constructor",
+					"private-constructor",
+					
+					"public-instance-method",
+					"protected-instance-method",
+					"private-instance-method"
+				]
+			}
+		],
+		"member-access": true,
+		"ordered-imports": true
+	}
+}
